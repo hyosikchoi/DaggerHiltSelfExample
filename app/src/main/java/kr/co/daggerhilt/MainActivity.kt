@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() , CoroutineScope {
             val response = api.pingPong()
             if(response.isSuccessful) {
                 withContext(Dispatchers.Main) {
-                    Toast.makeText(this@MainActivity , "response : ${response.body()}" , Toast.LENGTH_LONG).show()
+                    
                 }
             }
         }
