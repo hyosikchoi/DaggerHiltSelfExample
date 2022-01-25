@@ -4,9 +4,10 @@
     >
 
     <item android:id="@android:id/background">
-        <shape android:shape="rectangle">
+        <shape android:shape="oval">
             <solid
                 android:color="@color/black"/>
+            <size android:width="30dp" android:height="30dp"/>
         </shape>
     </item>
 
